@@ -1,0 +1,82 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match: '*'
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: subtitle
+        label: Subtitle
+      - type: string
+        name: layout
+        label: Layout
+      - type: number
+        name: modal-id
+        label: Modal Id
+        subtype: int
+      - type: date
+        name: date
+        label: Date
+      - type: image
+        name: img
+        label: Img
+      - type: image
+        name: thumbnail
+        label: Thumbnail
+      - type: string
+        name: alt
+        label: Alt
+      - type: string
+        name: project-date
+        label: Project Date
+      - type: string
+        name: client
+        label: Client
+      - type: string
+        name: category
+        label: Category
+      - type: string
+        name: description
+        label: Description
+  template:
+    type: data
+    label: Template
+    file: template.yml
+    fields:
+      - type: object
+        name: color
+        label: Color
+        fields:
+          - type: string
+            name: primary
+            label: Primary
+          - type: string
+            name: secondary
+            label: Secondary
+          - type: number
+            name: secondary-dark
+            label: Secondary Dark
+            subtype: int
+          - type: number
+            name: muted
+            label: Muted
+            subtype: int
+      - type: object
+        name: font
+        label: Font
+        fields:
+          - type: string
+            name: primary
+            label: Primary
+          - type: string
+            name: secondary
+            label: Secondary

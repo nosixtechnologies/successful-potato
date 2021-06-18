@@ -1,0 +1,55 @@
+url: ''
+baseurl: ''
+title: Awesome Title
+email: your-email@domain.com
+description: >-
+  Write an awesome description for your new site here. You can edit this line in
+  _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+people:
+  - name: Kay Garland
+    pic: 1
+    position: Lead Designer
+    social:
+      - title: twitter
+        url: null
+      - title: facebook
+        url: null
+      - title: stack-overflow
+        url: null
+  - name: Larry Parker
+    pic: 2
+    position: Lead Marketer
+    social:
+      - title: twitter
+        url: null
+      - title: facebook
+        url: null
+      - title: linkedin
+        url: null
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: twitter
+        url: null
+      - title: facebook
+        url: null
+      - title: google-plus
+        url: null
+social:
+  - title: twitter
+    url: 'http://twitter.com/jekyllrb'
+  - title: facebook
+    url: null
+  - title: stack-overflow
+    url: 'http://stackoverflow.com/questions/tagged/jekyll'
+  - title: bitbucket
+    url: 'http://bitbucket.org/jekyll'
+  - title: github
+    url: 'http://github.com/jekyll'
+address:
+  - line: 3481 Melrose Place
+  - line: 'Beverly Hills, CA 90210'
+markdown: kramdown
+permalink: pretty
